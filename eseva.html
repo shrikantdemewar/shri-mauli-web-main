@@ -45,82 +45,85 @@
         </div>
       </div>
     </div>
-    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+    <header class="site-navbar py-1 js-sticky-header site-navbar-target" role="banner">
 
       <div class="container">
-        <div class="d-flex align-items-center">
-          <div class="site-logo">
-            <a href="class.html" class="d-block">
-              <img src="images/" alt="Image" class="img-fluid">
-            </a>
-          </div>
-          <div class="mr-auto">
-            <nav class="site-navigation position-relative text-right" role="navigation">
-                <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                    <li>
-                      <a href="index.html" class="nav-link text-left">Home</a>
-                    </li>
-                    <li class="has-children">
-                      <a href="./class-website/class.html" class="nav-link text-left">Institute</a>
-                      <ul class="dropdown">
-                        <li><a href="./class-website/courses/ms-cit.html">MS-CIT</a></li>
-                        <li><a href="./class-website/courses/web-designing.html">Web Designing</a></li>
-                        <li><a href="./class-website/courses/c-program.html">C Programming</a></li>
-                        <li><a href="./class-website/courses.html">More >></a></li>
-                      </ul>
-                    </li>
-                    <li class="has-children active">
-                      <a href="eseva.html" class="nav-link text-left">E-Seva</a>
-                      <ul class="dropdown">
-                        <li><a href="./assets/doc/income.jpg">Income Cetificate</a></li>
-                        <li><a href="./assets/doc/domicile.png">Domicile Certificate</a></li>
-                        <li><a href="./assets/doc/non-criminal.png">Non-Criminal Certificate</a></li>
-                        <li><a href="./assets/doc/rajpatra.png">Gazettes</a></li>
-                        <li><a href="./eseva.html">More >> </a></li>
-                      </ul>
-                    </li>
-                    <li class="has-children">
-                      <a href="./cyberCafe.html" class="nav-link text-left">Cyber Cafe</a>
-                      <ul class="dropdown">
-                        <li><a href="./assets/doc/shop.png">Shop Act</a></li>
-                        <li><a href="./assets/doc/udyam.png">Udyam Certificate</a></li>
-                        <li><a href="./assets/doc/PF.png">P.F. Works</a></li>
-                        <li><a href="">Admission Forms</a></li>
-                        <li><a href="./assets/doc/job.png">Job Opening Forms</a></li>
-                        <li><a href="./cyberCafe.html">More >> </a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="stationery.html" class="nav-link text-left">Stationery</a>
-                    </li>
-                    <li>
-                        <a href="contact.html" class="nav-link text-left">Contact Us</a>
-                      </li>
-                      <li>
-                        <a href="about.html" class="nav-link text-left">About Us</a>
-                      </li>
-                  </ul>                                                                                                                                                                                                                                                                                          </ul>
+        <div class="navbar-custom">
+          <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="./index.html">
+                  <img src="./assets/logo.png" alt="logo" style="width: 120px; height: 100px;">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link custom-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="./class-website/courses.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Institute
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./class-website/courses/ms-cit.html">MS-CIT</a>
+                        <a class="dropdown-item" href="./class-website/courses/klick-course.html">KLiC Courses</a>
+                        <a class="dropdown-item" href="./class-website/courses/klic-diploma.html">KLiC Diploma</a>
+                        <a class="dropdown-item" href="./class-website/courses/web-designing.html">Web Designing</a>
+                        <a class="dropdown-item" href="./class-website/class.html">More Courses</a>
+                      </div>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./eseva.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      E-Seva
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./assets/doc/income.jpg">Income Certificate</a>
+                      <a class="dropdown-item" href="./assets/doc/domicile.png">Domicile Certificate</a>
+                      <a class="dropdown-item" href="./assets/doc/non-criminal.png">Non-Criminal</a>
+                      <a class="dropdown-item" href="./cyberCafe.html">Domicile Certificate</a>
+                      <a class="dropdown-item" href="./eseva.html">More</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./cyberCafe.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      Cyber Cafe
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="./assets/doc/shop.png">Shop Act</a>
+                      <a class="dropdown-item" href="./assets/doc/udyam.png">Udyam Certificate</a>
+                      <a class="dropdown-item" href="./assets/doc/PF.png">P.F. Works</a>
+                      <a class="dropdown-item" href="./assets/doc/admission.png">Admission Forms</a>
+                      <a class="dropdown-item" href="./assets/doc/job.png">Job Opening Forms</a>
+                      <a class="dropdown-item" href="./cyberCafe.html">More</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link custom-link" href="./stationery.html">Stationery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link custom-link" href="./contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link custom-link" href="./about.html">About Us</a>
+                  </li>
+                </ul>
+                <div class="ml-auto">
+                  <div class="social-wrap">
+                    <a href="https://www.facebook.com/people/Shrimauli-Computer-Institute/61559205070978/?mibextid=ZbWKwL"><span class="icon-facebook"></span></a>
+                    <a href="https://www.instagram.com/shrimaulienterprises?igsh=NTc4MTIwNjQ2YQ=="><span class="icon-instagram"></span></a>
+                    <a href="https://youtube.com/@shrimaulienterprises?feature=shared"><span class="icon-youtube"></span></a>
+                  </div>
+                </div>
+              </div>
             </nav>
-
-          </div>
-          <div class="ml-auto">
-            <div class="social-wrap">
-              <a href="https://www.facebook.com/people/Shrimauli-Computer-Institute/61559205070978/?mibextid=ZbWKwL"><span class="icon-facebook"></span></a>
-              <a href="https://www.instagram.com/shrimaulienterprises?igsh=NTc4MTIwNjQ2YQ=="><span class="icon-instagram"></span></a>
-              <a href="https://youtube.com/@shrimaulienterprises?feature=shared"><span class="icon-youtube"></span></a>
-
-              <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
-                class="icon-menu h3"></span></a>
-            </div>
-          </div>
-         
+      </div>
         </div>
       </div>
-
     </header>
 
     
-    <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('images/bg_1.jpg')">
+    <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="margin-top: 6rem;">
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-7">
@@ -278,39 +281,36 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-3">
-                <p class="mb-4"><img src="images/logo/mauli-big.png" alt="Image" class="img-fluid"></p>
-                <h3>Mauli Computer Instritute</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>  
+                <p class="mb-4"><img src="./assets/logo.png" style="width: 180px; height: 150px;" alt="Image" class="img-fluid"></p>
+                <h3>Shri Mauli Enterprises</h3>
+                <p>Near MIT Engineering Collage, Dehu Phata, Alandi.</p>  
               </div>
               <div class="col-lg-2">
                 <h3 class="footer-heading"><span>Quick Links</span></h3>
                 <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Gallery</a></li>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./about.html">About Us</a></li>
+                  <li><a href="./class-website/courses.html">Courses</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
                 </ul>
               </div>
               <div class="col-lg-2">
                 <h3 class="footer-heading"><span>Services</span></h3>
                 <ul class="list-unstyled">
-                    <li><a href="#">E-Seva</a></li>
-                    <li><a href="#">Internet Cafe</a></li>
-                    <li><a href="#">Xerox Center</a></li>
-                    <li><a href="#">Stationery</a></li>
-                    <li><a href="#">Online Works</a></li>
+                  <li><a href="./eseva.html">E-Seva</a></li>
+                  <li><a href="./cyberCafe.html">Cyber Cafe</a></li>
+                  <li><a href="./stationery.html">Stationery</a></li>
+                  <li><a href="./cyberCafe.html">Online Works</a></li>
                 </ul>
               </div>
               <div class="col-lg-2">
                   <h3 class="footer-heading"><span>Our Courses</span></h3>
                   <ul class="list-unstyled">
-                      <li><a href="#">MS-CIT</a></li>
-                      <li><a href="#">MKCL KLiC Courses</a></li>
-                      <li><a href="#">MKCL KLiC Diploma</a></li>
-                      <li><a href="#">Web Designing</a></li>
-                      <li><a href="#">C &amp; C++ Programming</a></li>
-                      <li><a href="#">React.js</a></li>
+                    <li><a href="./class-website/courses/ms-cit.html">MS-CIT</a></li>
+                    <li><a href="./class-website/courses/klick-course.html">MKCL KLiC Courses</a></li>
+                    <li><a href="./class-website/courses/klic-diploma.html">MKCL KLiC Diploma</a></li>
+                    <li><a href="./class-website/courses/web-designing.html">Web Designing</a></li>
+                    <li><a href="./class-website/courses.html">C &amp; C++ Programming</a></li>
                   </ul>
               </div>
               <div class="col-lg-3">

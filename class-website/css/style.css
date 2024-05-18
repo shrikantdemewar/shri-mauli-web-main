@@ -838,6 +838,9 @@ h1, h2, h3, h4, h5,
   .owl-slide-3 .owl-stage, .owl-slide .owl-stage {
     padding-top: 30px;
     padding-bottom: 30px; }
+    .navbar-nav li{
+      padding-right: 16px;
+    }
   .owl-slide-3 .owl-nav .owl-prev,
   .owl-slide-3 .owl-nav .owl-next, .owl-slide .owl-nav .owl-prev,
   .owl-slide .owl-nav .owl-next {
@@ -983,7 +986,7 @@ h1, h2, h3, h4, h5,
 
 .footer {
   padding: 4rem 0;
-  background: #1e1e1e;
+  background: #001d3d;
   font-size: 14px;
   color: #fff; }
   .footer .footer-heading {
@@ -998,11 +1001,6 @@ h1, h2, h3, h4, h5,
   .footer a:hover {
     color: #fff;
     text-decoration: underline; }
-  .footer .copyright {
-    color: #fff;
-    padding-top: 7rem;
-    text-align: center; }
-
 .ftco-subscribe-1 {
   background-size: cover;
   background-position: center center;
@@ -1025,33 +1023,6 @@ h1, h2, h3, h4, h5,
       color: #fff; }
   .ftco-subscribe-1 .form-control {
     height: auto !important; }
-
-.video-1 {
-  position: relative;
-  display: block; }
-  .video-1 .play {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    border-radius: 50%; }
-    .video-1 .play > span {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); }
-  .video-1:hover {
-    -webkit-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.3); }
-
 #loader {
   position: fixed;
   width: 96px;
